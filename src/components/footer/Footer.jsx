@@ -28,12 +28,12 @@ const Footer = ()=>{
             <div className={"footer-links-wrapper"}>
                 <div className="footer-links-item">
                     <h3 className="footer-links-item-title"> Usefully Links </h3>
-                    <ul>
-                        <Link to={'/'} className={"footer-link"}> Home </Link>
-                        <Link to={'/author'} className={"footer-link"}> Author </Link>
-                        <Link to={'/about'} className={"footer-link"}> About Us </Link>
-                        <Link to={'/contact'} className={"footer-link"}> Contact Us </Link>
-                        <Link to={'/register'} className={"footer-link"}> Register </Link>
+                    <ul className={"footer-links"}>
+                        <li><Link to={'/'} className={"footer-link"}> Home </Link></li>
+                        <li><Link to={'/authors'} className={"footer-link"}> Author </Link></li>
+                        <li><Link to={'/about'} className={"footer-link"}> About Us </Link></li>
+                        <li><Link to={'/contact'} className={"footer-link"}> Contact Us </Link></li>
+                        <li><Link to={'/register'} className={"footer-link"}> Register </Link></li>
                     </ul>
                 </div>
                 <div className="footer-links-item">
